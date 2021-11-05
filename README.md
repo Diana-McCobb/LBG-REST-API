@@ -94,3 +94,19 @@ To run tests on this project, use the command.
 ~~~ bash
 npm test
 ~~~
+
+## Example Tests
+
+### Unit
+
+An example unit test we can create for this project is to test the project builder.
+
+If we test the builder and input a name of "Lemon", a description of "A yellow citrus fruit." and a price of 0.4... We can expect an object to be created that matches this format.
+
+~~ javascript
+{
+    name : "Lemon",
+    description : "A yellow citrus fruit.",
+    price : 0.4
+}
+~~
