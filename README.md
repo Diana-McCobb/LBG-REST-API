@@ -144,3 +144,6 @@ AND they enter a description
 AND they enter a price
 AND they click the PUT button
 THEN the updated product is visible on the page
+
+###
+Diana
