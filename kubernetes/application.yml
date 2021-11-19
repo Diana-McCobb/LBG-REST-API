@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: diana-nodeapp
   labels:
-    app: diana-nodeapp
+    deploy: diana-deploy
 spec:
   replicas: 2
   selector:
